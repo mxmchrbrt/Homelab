@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main" id="Uy6RGUGGb7gWWEh-FA4p">
-    <mxGraphModel dx="2428" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="390" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -382,8 +382,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o9wL7sNFnqRoXqqrwYyt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;strokeWidth=2;fontFamily=Helvetica;" value="&lt;div&gt;&lt;b&gt;Podman&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(rootless)&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="80" x="363" y="600" as="geometry" />
+        <mxCell id="o9wL7sNFnqRoXqqrwYyt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;strokeWidth=2;fontFamily=Helvetica;" value="&lt;div&gt;&lt;b&gt;LXC Container&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Rootless Podman&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="109" x="348.5" y="592" as="geometry" />
         </mxCell>
         <mxCell id="AY4pFNCyeGDc1_u9A3RI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;strokeWidth=2;fontFamily=Helvetica;" value="&lt;div&gt;&lt;b&gt;Homarr&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="263" y="770" as="geometry" />
