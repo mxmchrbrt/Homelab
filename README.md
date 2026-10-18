@@ -1,6 +1,6 @@
 # Homelab
 
-Documentation of my personal homelab: how it is set up and the security and backup rules I follow.
+My Homelab is my favorite hobby. I use it to learn about network, UNIX, docker / podman. Moreover, it allows me to really own my data and know where and how it's stored. I enjoy experimenting on it and growing with it.
 
 ![Homelab architecture diagram](assets/Homelab_Architecture.png)
 
@@ -27,3 +27,25 @@ Documentation of my personal homelab: how it is set up and the security and back
 
 ### Exposure
 - Only less sensitive services are exposed to the internet, through a Cloudflare Tunnel and protected by Cloudflare Access.
+
+## How services are exposed
+
+Internet → Cloudflare Tunnel (+ Cloudflare Access) → reverse proxy (Nginx Proxy Manager) → service
+
+No inbound ports are open on my router. (But Headscale)
+
+## To do
+
+### Security
+- [ ] Review and tighten firewall rules per service
+
+### Backups
+- [ ] Document the restore procedure and log the last test date
+
+### Monitoring
+- [ ] Mail alerts for downtime and disk health
+- [ ] Central log review
+
+### Documentation
+- [ ] Short post-mortems of past incidents
+- [ ] Changelog
