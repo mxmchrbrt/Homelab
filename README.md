@@ -28,6 +28,10 @@ My Homelab is my favorite hobby. I use it to learn about network, UNIX, docker /
 ### Exposure
 - Only less sensitive services are exposed to the internet, through a Cloudflare Tunnel and protected by Cloudflare Access.
 
+### Monitoring
+
+I now use Ntop to monitor network traffic, it allows me to see what happens and have logs over my network.
+
 ## How services are exposed
 
 Internet → Cloudflare Tunnel (+ Cloudflare Access) → reverse proxy (Nginx Proxy Manager) → service
